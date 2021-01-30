@@ -136,7 +136,7 @@ const Main = (props) => {
 };
 
 Main.propTypes = {
-  filmDetails: PropTypes.array.isRequired,
+  filmDetails: PropTypes.object.isRequired,
   movies: PropTypes.array.isRequired,
 };
 

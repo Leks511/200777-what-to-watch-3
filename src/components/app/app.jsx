@@ -14,7 +14,7 @@ const App = (props) => {
 };
 
 App.propTypes = {
-  filmDetails: PropTypes.array.isRequired,
+  filmDetails: PropTypes.object.isRequired,
   movies: PropTypes.array.isRequired,
 };
 
