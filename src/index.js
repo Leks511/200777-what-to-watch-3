@@ -8,7 +8,12 @@ const FILM_DETAILS = {
   year: `10 октября`
 };
 
+const movies = [`Fantastic Beasts`, `Bohemian Rhapsody`, `Macbeth`];
+
 ReactDOM.render(
-    <App filmDetails={FILM_DETAILS} />,
+    <App
+      filmDetails={FILM_DETAILS}
+      movies={movies}
+    />,
     document.getElementById(`root`)
 );
