@@ -10,10 +10,13 @@ const FILM_DETAILS = {
 
 const movies = [`Fantastic Beasts`, `Bohemian Rhapsody`, `Macbeth`];
 
+const movieHeaderClickHandler = () => {};
+
 ReactDOM.render(
     <App
       filmDetails={FILM_DETAILS}
       movies={movies}
+      onMovieHeaderClick={movieHeaderClickHandler}
     />,
     document.getElementById(`root`)
 );
