@@ -16,6 +16,7 @@ it(`Should App render correctly`, () => {
         <App
           filmDetails={FILM_DETAILS}
           movies={movies}
+          onMovieHeaderClick={() => {}}
         />
     )
     .toJSON();

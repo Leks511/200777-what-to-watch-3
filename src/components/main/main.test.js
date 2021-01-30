@@ -16,6 +16,7 @@ it(`Should Main render correctly`, () => {
         <Main
           filmDetails={FILM_DETAILS}
           movies={movies}
+          onMovieHeaderClick={() => {}}
         />
     )
     .toJSON();
